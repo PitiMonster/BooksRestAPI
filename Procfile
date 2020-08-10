@@ -1,1 +1,1 @@
-web: gunicorn bookrestapi.stxnext_rec_env.restAPIproject.restAPIproject.wsgi --log-file -
+web: gunicorn restAPIproject.wsgi --log-file -
