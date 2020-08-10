@@ -1,1 +1,1 @@
-web: gunicorn restAPIproject.restAPIproject.wsgi --log-file -
+web: sh -c 'cd ./restAPIproject/ && exec gunicorn restAPIproject.wsgi --log-file -'
